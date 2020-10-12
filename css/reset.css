@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+/* *{
+    /* 把所有标签默认的内填充和外边距都清除 
+    margin:0;
+    padding:0;
+} */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, blockquote, th, td ,figure,figcaption{margin: 0; padding: 0;}
+body{
+    /* 统一项目中的文本 */
+    font-size:16px;
+    font-family:"Microsoft YaHei";
+}
+ul,ol,li{
+    /* 清除列表符号 */
+   list-style:none; 
+}
+a,u{
+    /* 清除默认的下划线 */
+    text-decoration:none;
+}
+i,em{
+    /* 默认倾斜清除 */
+    font-style:normal;
+}
+b,strong{
+    /* 默认加粗清除 */
+    font-weight:normal;
+}
+h1,h2,h3,h4,h5,h6{
+    /* 清除默认大小和加粗 */
+    font-weight:normal;
+    font-size:16px;
+}
+img{
+    /* 边框清零 */
+    border:none;
+     /* 解决插入图片3px的差距 */
+    display: block;
+}
+input{
+    /* 清除input聚焦时候的边框 */
+    outline:none;
+}
+
+.clear_fix:after{
+    /* 万能清除法，处理因浮动造成高度塌陷 */
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+}
+.clear_fix{
+    zoom:1;
+}

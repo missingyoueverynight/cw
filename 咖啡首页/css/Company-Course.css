@@ -1,0 +1,117 @@
+
+@charset "utf-8";
+/* 公司简介 */
+main{
+    min-height: 73px;
+   
+}
+main .con{
+    width: 1120px;
+    margin: 0 auto;
+    padding:38px 60px 0;
+    box-sizing: border-box;  
+     overflow: hidden;
+}
+main .con .top{
+    height: 35px;
+    border-bottom: 1px solid #d5d5d5;
+}
+main .con .lt{
+    width: 330px;
+    height: 32px; 
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+main .lt p:nth-child(1){
+    font-size: 16px;
+    color: #333333;
+    line-height: 16px;
+    margin-left: 12px;
+    position: relative;
+}
+main .lt p:nth-child(1):after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 9px;
+    background: #866961;
+    position: absolute;
+    top: 6px;
+    left: -9px;
+}
+main .lt p:nth-child(2){
+    font-size: 12px;
+    color: #999999;
+}
+main .con .rt{
+    width: 228px;
+    height: 32px; 
+    float: right;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+  
+}
+main .rt a:nth-child(1){
+    color: #333333;
+}
+main .rt a:last-child{
+    color: #333333;
+}
+main .rt a:nth-child(2){
+    color:#a0a0a0;
+}
+main .rt a:nth-child(3){
+    color:#a0a0a0;
+}
+
+main .con .bottom{
+    /* min-height: 86px; */
+    margin-top: 27px;
+}
+main .con .course{
+    /* min-height: 130px; */
+}
+main .con .course:first-child h1{
+    color: #866961;
+}
+main .course span{
+    margin: 8px ;
+    display: block;
+    height: 17px;
+    width: 10px;
+    float: left;
+    font-size: 10px;
+    color: #edded9;
+}
+main .course h1{
+    width: 56px;
+    font-size: 24px;
+    color: #999999;
+    float: left;
+    margin-bottom: 10px;
+}
+main .course div{
+    width: 870px;
+    margin-left: 120px;
+    position: relative;
+}
+main .course div:after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: calc(100% - 32px);
+    background: red;
+    position: absolute;
+    top: 35px;
+    left: -95px;
+}
+main .course div p{
+    font-size: 14px;
+    line-height: 40px;
+    color: #666666;
+}
+main .course:first-child .p1{
+    color: #866961;
+}

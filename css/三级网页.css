@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* 轮播*/
+section  img{
+    width: 100%;
+    position: relative;
+}
+section .con{
+    width: 670px;
+    height: 70px;
+    position: absolute;
+    top: 180px;
+    left: 330px;
+}
+section .con h1{
+    line-height: 38px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+section .con .s1{
+    font-size: 35px;
+    position: absolute;
+    top: -5px;
+    left: 290px;
+    color: white;
+}
+section .con h1::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 18px;
+    right: 97px;
+}
+section .con h2{
+    line-height: 20px;
+    font-size: 18px;
+    color: white;
+    margin-left: 312px;
+    position: relative;
+}
+section  h2 span{ 
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+section .con h2:after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 11px;
+    left: -214px;
+}
+
+/* 团队介绍 */
+main{
+    min-height: 73px;
+    
+}
+main .con{
+    width: 1120px;
+    margin: 0 auto;
+    padding:38px 60px 0;
+    box-sizing: border-box;  
+    overflow: hidden;
+}
+main .con .top{
+    height: 35px;
+    border-bottom: 1px solid #d5d5d5;
+}
+main .con .lt{
+    width: 330px;
+    height: 32px; 
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+main .lt p:nth-child(1){
+    font-size: 16px;
+    color: #414141;
+    line-height: 16px;
+    margin-left: 12px;
+    position: relative;
+}
+main .lt p:nth-child(1):after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 9px;
+    background: #866961;
+    position: absolute;
+    top: 6px;
+    left: -9px;
+}
+main .lt p:nth-child(2){
+    font-size: 12px;
+    color: #999999;
+}
+main .con .rt{
+    width: 247px;
+    height: 32px; 
+    float: right;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  
+}
+main .rt a:nth-child(1){
+    color: #333333;
+}
+main .rt a:last-child{
+    color: #333333;
+}
+main .rt a:nth-child(2){
+    color:#a0a0a0;
+}
+main .rt a:nth-child(3){
+    color:#a0a0a0;
+}
+
+main .con .bottom{
+
+}
+main .con h1{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+    color: #333333;
+}
+main .bottom span{
+    display: block;
+    font-size: 14px;
+    margin: 38px 0 24px 0 ;
+    color: #333333;
+}
+main .bottom p{
+    font-size: 14px;
+    color: #333333;
+    margin-top: 30px;
+    text-indent: 2em;
+    line-height: 30px;
+}

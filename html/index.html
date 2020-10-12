@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="//api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=SV7DdjaKHYpsKV84KBm9gYHAUQIYMufx"></script>
+	<script type="text/javascript" src="//api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="con">
+            <h1>
+                <img src="../img/logo.jpg" alt="">
+            </h1>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="Aboutus.html">关于我们</a></li>
+                <li><a href="产品展示.html">产品介绍</a></li>
+                <li><a href="Team-introduce.html">我们团队</a></li>
+                <li><a href="contact-us.html">联系我们</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 轮播 -->
+    <div class="banner">
+        <div class="banner-img" id="bannerImg">
+            <!-- <img src="../img/banner1.jpg" alt="">
+            <img src="../img/banner2.png" alt="">
+            <img src="../img/banner3.png" alt=""> -->
+            <div class="btn">
+                <button> <</button>
+                <button>></button>
+            </div>
+
+        </div>
+
+        <ul>
+            <li class="active " dy="0"></li>
+            <li dy="1"></li>
+            <li dy="2"></li>
+        </ul>
+        <div class="con">
+            <h1>浓香咖啡</h1>
+            <h2>给你一个浓情的午后时光</h2>
+            <div class="l-b"></div>
+            <div class="r-b"></div>
+            <p>The taste of a cup of standard coffee should not be bitter. A qualified barista will be
+                strict in every step</p>
+            <p>一杯标准的咖啡味道不应该是苦涩的一名合格的
+                咖啡师会严谨每一步操作</p>
+        </div>
+    </div>
+
+    <!-- 主体 -->
+    <main>
+        <div class="con1">
+            <div class="about">
+                <h1>关于我们</h1>
+                <h2>About Us</h2>
+                <img src="../img/tea.png" alt="">
+            </div>
+
+            <!-- 公司简介 -->
+            <div class="jianjie">
+                <div class="tu">
+                    <img src="../img/tu.png" alt="">
+                </div>
+                <div class="right">
+                    <h1>公司简介</h1>
+                    <p>二十世纪三十年代,巴西咖啡豆生产过剩，剩余的咖啡豆只能当燃料消耗,非常可惜。当巴
+                        西政府向雀巢公司寻求咖啡豆过剩的解决方法的时候，并没有意识到这最终成就了一一个历久弥醇
+                        的伟大的咖啡品牌。1930年 ,巴西咖啡连续经历了几次大丰收,短期内难以完全销售,便向雀巢
+                        求助，求令咖啡不失香醇的长期保存方式。咖啡权威一马克思.莫根特尔(Max Morgenthal
+                        er)立刻同他的研究队伍着手研究,试图制造一种既可以较好保存咖啡芳香又易溶于热水的"固体咖
+                        啡"。经过在雀巢瑞士实验室长达七年的不懈努力, 30年代末,雀巢向市场推出速溶咖啡，”雀巢
+                        咖啡”品牌创立。</p>
+                    <p>1988年,雀用通过考察确定云南适宜种植咖啡,决定支持云南省的咖啡种植.随后于1992年
+                        在云南思茅地区成立咖啡农艺服务部,帮助当地发展咖啡种植业。1997年 ，雀巢公司在西双版纳
+                        创建试验示范农场,从零开始,让农民得到方方面面的实际培训I大大促进了当地小粒种咖啡豆的
+                        发展，并使一个产量低、 质量次的咖啡豆产地发展成一个产量高、 质量优且已引起全球咖啡界关注
+                        的咖啡豆产地。雀巢不仅让农民通过种植咖啡获得了稳定的收入当地农民通过向雀巢了解国际现货
+                        市场价格甚至自己.上网查询交易网站的价格,学会根据波动分析销售咖啡的时机。</p>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <p>浓香咖啡，让你享受每一个美好的午后时光</p>
+        </div>
+
+        <!-- 产品介绍 -->
+        <div class="con2">
+            <div class="Product">
+                <h1>产品介绍</h1>
+                <h2>Product</h2>
+                <img src="../img/tea.png" alt="">
+            </div>
+            <div class="natie" id="natie">
+                <!-- <dl>
+                    <dt>
+                        <img src="../img/natie.png" alt="">
+                    </dt>
+                    <dd>拿铁咖啡</dd>
+                    <dd>拿铁咖啡是意大利浓缩咖啡(Espresso)与牛奶的经典
+                        混合, 意大利人也很喜欢把拿铁作为早餐的饮料 ,带
+                        来让人难以忘怀的味道</dd>
+                    <div class="mengceng">
+                        <img src="../img/search.png" alt="">
+                    </div>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../img/kabu.png" alt="">
+                    </dt>
+                    <dd>卡布奇洛</dd>
+                    <dd>拿铁咖啡是意大利浓缩咖啡(Espresso)与牛奶的经典
+                        混合, 意大利人也很喜欢把拿铁作为早餐的饮料 ,带
+                        来让人难以忘怀的味道</dd>
+                    <div class="mengceng">
+                        <img src="../img/search.png" alt="">
+                    </div>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../img/moka.png" alt="">
+                    </dt>
+                    <dd>摩卡咖啡</dd>
+                    <dd>拿铁咖啡是意大利浓缩咖啡(Espresso)与牛奶的经典
+                        混合, 意大利人也很喜欢把拿铁作为早餐的饮料 ,带
+                        来让人难以忘怀的味道</dd>
+                    <div class="mengceng">
+                        <img src="../img/search.png" alt="">
+                    </div>
+                </dl> -->
+
+            </div>
+        </div>
+
+        <!-- 公司团队 -->
+        <div class="team">
+            <div class="ourteam">
+                <h1>团队介绍</h1>
+                <h2>Our team</h2>
+                <img src="../img/tea.png" alt="">
+            </div>
+            <div class="tu" id="tintro">
+                <!-- <dl>
+                    <dt>
+                        <img src="../img/1.png" alt="">
+                    </dt>
+                    <dd>
+                        <p>贾斯丁·比伯 </p>
+                        <p>Justing Bpor</p>
+                    </dd>
+                    <dd>
+                        <p>贾斯丁·比伯 </p>
+                        <p>贾斯汀出生于1994年3月1日的加</p>
+                        <p>拿大安大略省伦敦的圣若大略省伦大安大略省</p>
+                    </dd>
+                </dl>
+
+                <dl>
+                    <dt>
+                        <img src="../img/2.png" alt="">
+                    </dt>
+                    <dd>
+                        <p>查理·普斯</p>
+                        <p> Charlie Puth</p>
+                    </dd>
+                    <dd>
+                        <p>查理·普斯 </p>
+                        <p>查理·普斯出生于1994年3月1日的加</p>
+                        <p>拿大安大略省伦敦的圣若大略省伦大安大略省</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../img/3.png" alt="">
+                    </dt>
+                    <dd>
+                        <p>艾薇儿·拉维尼</p>
+                        <p> Avril Lavigne</p>
+                    </dd>
+                    <dd>
+                        <p>艾薇儿·拉维尼 </p>
+                        <p>艾薇儿·拉维尼出生于1994年3月1日的加</p>
+                        <p>拿大安大略省伦敦的圣若大略省伦大安大略省</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="../img/4.png" alt="">
+                    </dt>
+                    <dd>
+                        <p>泰勒斯·威夫特</p>
+                        <p> Taylor Swift</p>
+                    </dd>
+                    <dd>
+                        <p>泰勒斯·威夫特 </p>
+                        <p>泰勒斯·威夫特出生于1994年3月1日的加</p>
+                        <p>拿大安大略省伦敦的圣若大略省伦大安大略省</p>
+                    </dd>
+                </dl> -->
+            </div>
+        </div>
+
+        <!-- 联系我们 -->
+
+        <div class="lianxi">
+            <div class="Contact">
+                <h1>联系我们</h1>
+                <h2>Contact us</h2>
+                <img src="../img/tea.png" alt="">
+            </div>
+
+            <div class="map">
+                <!-- <img src="../img/map.png" alt=""> -->
+                <div id="allmap">	
+                </div>
+            </div>
+            <div class="rt">
+                <div class="top"></div>
+                <ul>
+                    <li><a href="">咨询热线</a></li>
+                    <li><a href="">Information Hotline</a></li>
+                    <li><a href="">重庆: +86 023-867-7848</a></li>
+                    <li><a href="">(09: 30~18 : 30北京时间)</a></li>
+                    <img src="../img/phone.png" alt="">
+                </ul>
+                <ul>
+                    <li><a href="">公司地址</a></li>
+                    <li><a href=""> Company address</a></li>
+                    <li><a href="">地址:重庆大坪龙湖时代天街3号写字楼2407室</a></li>
+                    <li><a href="">(09:30~18:30北京时间)</a></li>
+                    <img src="../img/dingwei.png" alt="">
+                </ul>
+                <ul>
+                    <li><a href="">公司邮箱</a></li>
+                    <li><a href="">E-mail</a></li>
+                    <li><a href="">重庆: +86 023-867-7848</a></li>
+                    <li><a href="">邮箱: info@haitouglobal.com</a></li>
+                    <img src="../img/xin.png" alt="">
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部 -->
+    <footer>
+        <div class="con">
+            <p>COPYRIGHT ⑥ 重庆DUZU有限公司 | DUZU备案号 33010602001878 号 版权所有: 重庆戈登有限公司</p>
+            <img src="../img/foot_log.png" alt="">
+        </div>
+    </footer>
+    <script>
+        function product() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "../php/index.php?hide=1");
+            xhr.send(null);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var arr = eval(xhr.responseText);
+                    console.log(arr)
+                    for (var i = 0; i < arr.length; i++) {
+                        var dl = document.createElement("dl");
+                        var dt = document.createElement("dt");
+                        var div = document.createElement("div")
+                        var img = new Image();
+                        img.src = "../img/search.png"
+                        div.className = "mengceng"
+                        div.appendChild(img);
+                        dl.appendChild(dt)
+
+                        for (var j = 0; j < 2; j++) {
+                            var dd = document.createElement("dd");
+
+                            if (j == 0) {
+                                dd.innerHTML = arr[i].title;
+                            }
+                            else {
+                                dd.innerHTML = arr[i].content;
+                            }
+                            dl.appendChild(dd)
+                        }
+                        var img = new Image();
+                        img.src = arr[i].src;
+                        dt.appendChild(img)
+                        dl.appendChild(div)
+                        // console.log(dl)
+                        natie.appendChild(dl)
+                    }
+
+                }
+            }
+        }
+        product();
+        function banner(){
+            var xhr=new XMLHttpRequest();
+            xhr.open("GET", "../php/index.php?hide=2");
+            xhr.send(null);
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4&&xhr.status==200){
+                    var arr=JSON.parse(xhr.responseText);
+                    for(var i=0;i<arr.length;i++){
+                        var img=new Image();
+                        img.src=arr[i];
+                        // console.log(img)
+                        bannerImg.appendChild(img);
+                    }
+                }
+            }
+        }
+        banner();
+        function team(){
+            var xhr=new XMLHttpRequest();
+            xhr.open("GET", "../php/index.php?hide=3");
+            xhr.send(null);
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4&&xhr.status==200){
+                    var arr=JSON.parse(xhr.responseText);
+                    for(var i=0;i<arr.length;i++){
+                        var dl=document.createElement("dl");
+                        var dt=document.createElement("dt");
+                        var img=new Image();
+                        img.src=arr[i].src;
+                        dt.appendChild(img);
+                        dl.appendChild(dt);
+                        for(var j=0;j<2;j++){
+                            var dd=document.createElement("dd");
+                            if(j==0){
+                                for(var k=0;k<2;k++){
+                                    var p=document.createElement("p");
+                                    if(k==0){
+                                        p.innerHTML=arr[i].ChineseName;
+                                    }else{
+                                        p.innerHTML=arr[i].EnglishName;
+                                    }
+                                    dd.appendChild(p);
+                                }
+                            }else{
+                                for(var k=0;k<3;k++){
+                                    var p=document.createElement("p");
+                                    if(k==0){
+                                        p.innerHTML=arr[i].ChineseName;
+                                    }else if(k==1){
+                                        p.innerHTML=arr[i].intro1;
+                                    }else{
+                                        p.innerHTML=arr[i].intro2;
+                                    }
+                                    dd.appendChild(p);
+                                }
+                            }
+                            dl.appendChild(dd);
+                        }
+                        // console.log(dl)
+                        tintro.appendChild(dl)
+                    }
+                    
+                }
+            }
+        }
+        team();
+    </script>
+    <script src="../js/轮播.js"></script>
+</body>
+
+</html>
